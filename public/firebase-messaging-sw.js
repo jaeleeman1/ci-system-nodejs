@@ -23,6 +23,7 @@ messaging.requestPermission()
 })
 .catch (function () {
     console.log('Error occured');
+    console.log('Error occured');
 })
 
 messaging.onMessage(function (payload) {
