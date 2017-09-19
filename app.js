@@ -43,6 +43,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 //session
+//session
 app.use(session({
     secret: 'keyboard cat',
     //store: new redisStore({host:'couphone-redis-0001-001.jh3alo.0001.apn2.cache.amazonaws.com', port:6379, client: client}),
